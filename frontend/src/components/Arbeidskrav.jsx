@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import client from "../sanityClient";
+import {client} from '../helpers/client.js'
+<source />
 
 export default function Arbeidskrav(){
     const [arbeidskrav, setArbeidskrav] = useState([])
