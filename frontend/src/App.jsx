@@ -1,4 +1,5 @@
 import './App.css'
+import KarianneProfile from './components/KarianneProfile'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <section>
         <h2>Gruppemedlemmer</h2>
       </section>
+      <KarianneProfile />
       
       {/* Her skal vi lage komponentene våre */}
 
