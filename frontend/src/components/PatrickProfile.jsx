@@ -1,5 +1,5 @@
 import './PatrickProfile.css';
-import profilBilde from './assets/Meg når jeg studerer.jpg';
+import profilBilde from '../assets/Meg når jeg studerer.jpg';
 
 export default function PatrickProfile() {
 
@@ -7,7 +7,7 @@ export default function PatrickProfile() {
     <article className="patrick-profile-kort">
       <header>
         <img 
-          src="Meg når jeg studerer.jpg" 
+          src={profilBilde}
           alt="Bildet av selveste patrick!" 
         />
         <h2>Patrick Jacobsen</h2>
