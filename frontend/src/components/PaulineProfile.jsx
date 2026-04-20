@@ -1,3 +1,4 @@
+import './PaulineProfile.css';
 import mitsi from '../assets/mitsi.jpg'
 
 export default function PaulineProfile(){
