@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import mitsi from '../assets/mitsi.jpg'
 
 export default function PaulineProfile(){
@@ -11,8 +10,4 @@ export default function PaulineProfile(){
             <a href="mailto:paulineh@hiof.no">paulineh@hiof.no</a>
         </article>
     )
-=======
-export default function PaulineProfile(){
-    return
->>>>>>> Stashed changes
 }
