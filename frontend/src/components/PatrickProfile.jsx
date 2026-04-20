@@ -1,5 +1,5 @@
 import './PatrickProfile.css';
-import profilBilde from './Meg når jeg studerer.jpg';
+import profilBilde from './assets/Meg når jeg studerer.jpg';
 
 export default function PatrickProfile() {
 
