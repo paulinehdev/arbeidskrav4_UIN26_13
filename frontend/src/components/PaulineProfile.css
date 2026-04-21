@@ -1,3 +1,29 @@
-img{
+.pauline-profilkort{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #852735;
+    border-radius: 40px;
+    align-items: center;
+    padding: 1rem;
     width: 50%;
+    background-color: #f0e1e9;
+    color: #852735;
+
+    h2{
+        color: #852735;
+    }
+
+    a{
+        color: #852735;
+        text-decoration: none;
+    }
+    
+
+    img{
+        width: 200px;
+        height: 200px;
+        border: 4px solid #ffff;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
 }
