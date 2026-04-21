@@ -1,0 +1,66 @@
+
+.faith-profil {
+    background-color: #ffe4ec;
+    border-radius: 16px;
+    padding: 1.5rem;
+    max-width: 260px;
+    text-align: left;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)),
+        url("../assets/newyork.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+
+.faith-bilde{
+    width: 140px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem auto;
+    display: block;
+    margin-bottom: 1rem;
+    border: 3px solid #ffc0cb;
+
+}
+
+.faith-name{
+    color: #e75480;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+
+}
+
+.faith-studie{
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+
+}   
+
+.faith-mail{
+    font-size: 0.9rem;
+    color: #004a99;
+    text-decoration: none;
+}
+
+.faith-mail:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+.faith-name, .faith-studie, .faith-mail {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+  
+
+
+} 
+
+
