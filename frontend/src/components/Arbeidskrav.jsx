@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import {client} from '../helpers/client.js'
-import '../style/arbeidskrav.css'
+import '../app.css'
 
 
 export default function Arbeidskrav(){
