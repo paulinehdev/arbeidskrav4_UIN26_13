@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import {client} from '../helpers/client.js'
+import '../style/arbeidskrav.css'
+
 
 export default function Arbeidskrav(){
     const [arbeidskrav, setArbeidskrav] = useState([])
@@ -10,9 +12,9 @@ export default function Arbeidskrav(){
     }, []);
 
     return (
-    <section>
+    <section className="arbeidskrav-layout">
         <h2>Arbeidskrav</h2>
-        <ul>
+        <ul >
             {arbeidskrav.map((ak) => (
                 <li key={ak.title}>
                     <h3>{ak.title}</h3>
