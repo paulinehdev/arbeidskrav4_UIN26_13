@@ -17,8 +17,8 @@
 
 
 .faith-bilde{
-    width: 140px;
-    height: 100px;
+    width: 90%;
+    height: 60%;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 1rem auto;
@@ -29,7 +29,7 @@
 }
 
 .faith-name{
-    color: #e75480;
+    color: #ff00aa;
     text-shadow: 0 1px 2px rgba(0,0,0,0.3);
     font-size: 1.2rem;
     font-weight: bold;
@@ -47,8 +47,9 @@
 
 .faith-mail{
     font-size: 0.9rem;
-    color: #004a99;
+    color: #ff00aa;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .faith-mail:hover {
