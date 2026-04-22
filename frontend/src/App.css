@@ -21,8 +21,6 @@
 .arbeidskrav-layout ul{
    text-align: left; 
   list-style: none; 
-  
- 
 }
 
 .arbeidskrav-layout li{
@@ -30,6 +28,19 @@
    padding-bottom: 2%;
 }
 
+.medlem-kort {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+
+  gap: 2rem; 
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.medlem-kort article {
+  padding: 4rem;
+}
 
  
 
