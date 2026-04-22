@@ -1,18 +1,20 @@
 import { useEffect, useState } from "react";
 import {client} from '../helpers/client.js'
+import '../app.css'
+
 
 export default function Arbeidskrav(){
     const [arbeidskrav, setArbeidskrav] = useState([])
 
     useEffect(() => {
-        client.fetch(`*[_type == "arbeidskrav"]{title, description}`)
+        client.fetch(`*[_type == "arbeidskrav"] | order(nummer asc)`)
         .then(data => setArbeidskrav(data));
     }, []);
 
     return (
-    <section>
+    <section className="arbeidskrav-layout">
         <h2>Arbeidskrav</h2>
-        <ul>
+        <ul >
             {arbeidskrav.map((ak) => (
                 <li key={ak.title}>
                     <h3>{ak.title}</h3>
