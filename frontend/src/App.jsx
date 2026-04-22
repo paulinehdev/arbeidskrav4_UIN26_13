@@ -8,7 +8,7 @@ import PaulineProfile from './components/PaulineProfile'
 function App() {
   
 
-  return (
+   return (
     <>
     <header>
       <h1>Gruppe 13</h1>
