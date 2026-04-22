@@ -15,9 +15,8 @@ function App() {
     </header>
 
     <main>
-      <section>
-        <h2>Gruppemedlemmer</h2>
-            
+      <h2>Gruppemedlemmer</h2>
+      <section className="medlem-kort">    
         {/* Her skal vi lage komponentene våre */}
         <FaithProfile />
         <KarianneProfile />
