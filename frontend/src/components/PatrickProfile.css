@@ -1,38 +1,23 @@
-.patrick-profil {
+.patrick-profile-kort {
     box-sizing: border-box;
     max-width: 400px;
-    padding: 1.5rem;
-    margin: 1rem;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    font-family: sans-serif; 
-    background-color: #fafafa;
-    line-height: 1.6; 
+    padding: 0.5rem;
+    border: 1px solid #636363;
+    border-radius: 1rem;
+    background-color: #000000;
 }
 
-.patrick-profil header h2 {
+.patrick-profile-kort header h2 {
     margin-top: 0;
-    color: #333; 
+    color: #ffffff; 
 }
 
-.patrick-profil img {
+.patrick-profile-kort img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
 }
 
-.patrick-profil a {
-    color: #0066cc;
+.patrick-profile-kort a {
+    color: #0080ff;
     text-decoration: none;
-}
-
-.patrick-profil h3 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.5rem;
-}
-
-.patrick-profil .arbeidskrav-kort {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background: #fff;
 }
