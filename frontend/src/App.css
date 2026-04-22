@@ -11,3 +11,8 @@
 .medlem-kort article {  
   padding: 4rem;
 }
+
+h1, h2{
+  text-align: center;
+  margin-bottom: 3rem;
+}
