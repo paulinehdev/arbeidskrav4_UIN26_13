@@ -1,8 +1,5 @@
 .arbeidskrav-layout{
   margin: 3rem;
- 
-  
- 
 
   h2{
     font-size:30px;
@@ -10,12 +7,12 @@
   }
 
   h3{
-    color: #000000;
+    color: default;
     margin-bottom: 0.5rem;
   }
 
   p{
-    color:#000000;
+    color: default;
   }
 }
 .arbeidskrav-layout ul{
