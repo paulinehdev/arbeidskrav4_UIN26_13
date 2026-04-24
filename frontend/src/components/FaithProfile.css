@@ -3,7 +3,7 @@
     background-color: #ffe4ec;
     border-radius: 16px;
     padding: 1.5rem;
-    max-width: 260px;
+    width: 50%;
     text-align: left;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     background-image: 
@@ -12,7 +12,7 @@
     background-size: cover;
     background-position: center;
     color: white;
-
+    margin-left: auto;
 }
 
 
